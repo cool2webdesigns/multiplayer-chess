@@ -1,0 +1,14 @@
+multiplayer-chess/
+│
+├── server/
+│   ├── main.py
+│   ├── chess_game.py
+│   ├── rooms.py
+│   └── requirements.txt
+│
+├── client/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+└── README.md
