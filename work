@@ -1,0 +1,20 @@
+Player A
+   │
+   │ WebSocket
+   ▼
+┌─────────────────────┐
+│   FastAPI Server     │
+│                     │
+│  Room ABC123        │
+│  ┌───────────────┐  │
+│  │ White: Player A│  │
+│  │ Black: Player B│  │
+│  │ Chess position │  │
+│  │ Clock          │  │
+│  │ Move history   │  │
+│  └───────────────┘  │
+└─────────┬───────────┘
+          │
+          │ WebSocket
+          ▼
+       Player B
